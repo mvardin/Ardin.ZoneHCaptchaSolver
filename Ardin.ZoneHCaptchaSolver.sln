@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ardin.ZoneHCaptchaSolver.Sample", "Ardin.ZoneHCaptchaSolver.Sample\Ardin.ZoneHCaptchaSolver.Sample.csproj", "{57DE141D-9B60-4F47-8844-362E51DEB2C4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ardin.ZoneHCaptchaSolver.Sample", "Ardin.ZoneHCaptchaSolver.Sample\Ardin.ZoneHCaptchaSolver.Sample.csproj", "{57DE141D-9B60-4F47-8844-362E51DEB2C4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ardin.ML.Model", "Ardin.ML.Model\Ardin.ML.Model.csproj", "{27CBA0D6-7978-4F2B-A765-4847F00C9A02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{57DE141D-9B60-4F47-8844-362E51DEB2C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57DE141D-9B60-4F47-8844-362E51DEB2C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57DE141D-9B60-4F47-8844-362E51DEB2C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27CBA0D6-7978-4F2B-A765-4847F00C9A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27CBA0D6-7978-4F2B-A765-4847F00C9A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27CBA0D6-7978-4F2B-A765-4847F00C9A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27CBA0D6-7978-4F2B-A765-4847F00C9A02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
