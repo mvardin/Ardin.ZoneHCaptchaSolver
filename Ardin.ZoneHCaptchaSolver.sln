@@ -7,6 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ardin.ZoneHCaptchaSolver.Sa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ardin.ML.Model", "Ardin.ML.Model\Ardin.ML.Model.csproj", "{27CBA0D6-7978-4F2B-A765-4847F00C9A02}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CaptchaSamples", "CaptchaSamples", "{0404BA85-E09D-4293-97B4-FB04F43CBD41}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\..\Users\ardin\Desktop\01.png = ..\..\..\Users\ardin\Desktop\01.png
+		..\..\..\Users\ardin\Desktop\02.png = ..\..\..\Users\ardin\Desktop\02.png
+		..\..\..\Users\ardin\Desktop\03.png = ..\..\..\Users\ardin\Desktop\03.png
+		..\..\..\Users\ardin\Desktop\04.png = ..\..\..\Users\ardin\Desktop\04.png
+		..\..\..\Users\ardin\Desktop\05.png = ..\..\..\Users\ardin\Desktop\05.png
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
