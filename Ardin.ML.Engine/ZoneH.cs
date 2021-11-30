@@ -23,17 +23,16 @@ namespace Ardin.ML.Engine
             string code = string.Empty;
             for (int i = 0; i < blobs.Length; i++)
             {
-                string filename = Guid.NewGuid() + ".png";
-                string imgSource = "c:\\temp\\" + filename;
-                blobs[i].Save(imgSource);
+                string filename = Path.GetTempFileName().Replace(".tmp", ".png");
+                blobs[i].Save(filename);
                 ModelInput sampleData = new ModelInput()
                 {
-                    ImageSource = imgSource
+                    ImageSource = filename
                 };
 
                 var predictionResult = ConsumeModel.Predict(sampleData);
                 code += predictionResult.Prediction;
-                File.Delete(imgSource);
+                File.Delete(filename);
             }
             return code;
         }

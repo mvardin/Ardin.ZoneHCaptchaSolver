@@ -6,4 +6,9 @@
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Ardin.ML.Engine\Ardin.ML.Engine.csproj" />
+    <ProjectReference Include="..\Ardin.ML.Model\Ardin.ML.Model.csproj" />
+  </ItemGroup>
+
 </Project>
