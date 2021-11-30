@@ -50,13 +50,14 @@ namespace Ardin.ZoneHCaptchaSolver.Sample
             // 
             this.pictureBox1.Location = new System.Drawing.Point(12, 41);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(169, 50);
+            this.pictureBox1.Size = new System.Drawing.Size(466, 166);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
             // btnSolve
             // 
-            this.btnSolve.Location = new System.Drawing.Point(12, 97);
+            this.btnSolve.Location = new System.Drawing.Point(12, 213);
             this.btnSolve.Name = "btnSolve";
             this.btnSolve.Size = new System.Drawing.Size(169, 23);
             this.btnSolve.TabIndex = 2;
@@ -67,10 +68,10 @@ namespace Ardin.ZoneHCaptchaSolver.Sample
             // lblSolvedCaptchaText
             // 
             this.lblSolvedCaptchaText.AutoSize = true;
-            this.lblSolvedCaptchaText.Font = new System.Drawing.Font("Segoe UI", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.lblSolvedCaptchaText.Location = new System.Drawing.Point(60, 138);
+            this.lblSolvedCaptchaText.Font = new System.Drawing.Font("Segoe UI", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblSolvedCaptchaText.Location = new System.Drawing.Point(158, 267);
             this.lblSolvedCaptchaText.Name = "lblSolvedCaptchaText";
-            this.lblSolvedCaptchaText.Size = new System.Drawing.Size(68, 28);
+            this.lblSolvedCaptchaText.Size = new System.Drawing.Size(116, 46);
             this.lblSolvedCaptchaText.TabIndex = 3;
             this.lblSolvedCaptchaText.Text = "====";
             // 
@@ -78,7 +79,7 @@ namespace Ardin.ZoneHCaptchaSolver.Sample
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(209, 187);
+            this.ClientSize = new System.Drawing.Size(490, 349);
             this.Controls.Add(this.lblSolvedCaptchaText);
             this.Controls.Add(this.btnSolve);
             this.Controls.Add(this.pictureBox1);

@@ -21,7 +21,7 @@ namespace Ardin.ZoneHCaptchaSolver.Sample
         private void btnLoadCaptcha_Click(object sender, EventArgs e)
         {
             string url = "http://zone-h.org/captcha.py";
-            //url = @"C:\temp\01.png";
+            url = @"C:\Storage\Workplace\Ardin.ZoneHCaptchaSolver\CaptchaSamples\captcha.png";
             pictureBox1.ImageLocation = url;
         }
 
